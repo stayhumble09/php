@@ -1,6 +1,6 @@
 drop table members;
 create table members (
-	num       int not null auto_increment primary key,
+	num       int not null primary key,
 	userid    varchar(100) not null,
 	username    varchar(100) not null,
 	password  varchar(100) not null,

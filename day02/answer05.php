@@ -13,9 +13,9 @@
             $won = $dollar*1450;
             $euro = $dollar*1800;
             $string.="<tr>
-                <td>{dollar}</td>
-                <td>{won}</td>
-                <td>{euro}</td>
+                <td>${dollar}</td>
+                <td>${won}</td>
+                <td>${euro}</td>
             </tr>";
         }
         $string.="</tbody></table>";

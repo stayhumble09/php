@@ -6,10 +6,10 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="post_process.php" method = "post">
+    <form action="post_process.php" method="post">
         <div><input type="text" name="userID"></div>
         <div><input type="password" name="userPW"></div>
-        <div><button?>전송</button></div>
+        <div><button>전송</button></div>
     </form>
 </body>
 </html>

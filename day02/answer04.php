@@ -1,14 +1,14 @@
 <?php
-$n = 1;
-$count = 0;
-while ($n<=100) {
-if ($n%3 == 0) {
-echo "$n ";
-$count++;
+    echo "=================<br>";
+    echo "인치  /  센치미터<br>";
+    echo "=================<br>";
 
-if ($count%10 == 0)
-echo "<br>";
-}
-$n++;
-}
+    $inch = 10;
+    while($inch<=20) {
+        $cm = $inch*2.54;
+        //echo $inch."&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;".$cm."<br>";
+        echo $inch."&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;".$cm."<br>";
+        $inch+=2;
+    }
+
 ?>

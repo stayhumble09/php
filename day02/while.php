@@ -1,6 +1,6 @@
 <?php
     $i=1;
-    while($i<=10){
+    while($i<=10) {
         echo $i."<br>";
         $i++;
     }
@@ -9,7 +9,7 @@
 <?php
     $i=1;
     $sum = 0;
-    while($i<=10){
+    while($i<=10) {
         $sum+=$i;
         $i++;
     }
@@ -25,14 +25,16 @@
 <?php
     $string="";
     $string.="<table border='1'><tbody>";
-    for($i=2;$i<=9;$i++) {
+    for($i=1;$i<=9;$i++) {
         $string.="<tr>";
-        for($j=1;$j<=9;$j++) {
+        for($j=2;$j<=9;$j++) {
             $result = $i*$j;
-            $string.="<td>".$i."x".$j."=".$result."</td>";
-            }
-            $string.="</tr>";
+            $string.="<td>{$j}x{$i}={$result}</td>";
         }
-            $string.="</table>";
-            echo $string;
+        $string.="</tr>";
+    }
+    $string.="</table>";
+    echo $string;
 ?>
+<hr>
+

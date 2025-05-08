@@ -6,11 +6,12 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="post_friend_process.php" method = "post">
-        <div><input type="text" name="userID"></div>
+    <form action="post_friend_process.php" 
+    method="post">
+        <div><input type="text" name="userName"></div>
         <div><input type="text" name="tel"></div>
         <div><input type="text" name="address"></div>
-        <div><button?>전송</button></div>
+        <div><button>전송</button></div>
     </form>
 </body>
 </html>
